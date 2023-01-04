@@ -40,7 +40,7 @@ The Firestore `collection` is "flattened", and converted to a table with basic c
 
 ##### HOOKS: Customizing the JSON
 
-You can customize the way your JSON file is written using a custom hook.  A common use for this is to "flatten" the JSON file, or to split nested data into separate, related database tables.
+You can customize the way your JSON file is written using a custom hook.  A common use for this is to "flatten" the JSON file, or to split nested data into separate, related database tables. Note: the hooks will be ran with the `node firestore2json.js` command.
 
 For example, you could take a Firestore document that looks like this:
 
